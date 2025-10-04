@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { MapPin, Thermometer, Droplets, Gauge } from 'lucide-react';
 
@@ -40,7 +40,7 @@ const questions = [
   },
   {
     id: 3,
-    data: [
+    data: [ 
       { time: '0', temp: 5.476, humidity: 76.51, pressure: 884.74 },
       { time: '1', temp: 4.2675, humidity: 83.025, pressure: 884.8 },
       { time: '2', temp: 3.9925, humidity: 82.825, pressure: 884.725 },
